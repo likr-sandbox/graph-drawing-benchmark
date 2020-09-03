@@ -1,0 +1,29 @@
+{
+  "name": "graph-drawing-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "benchmark": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likr-sandbox/graph-drawing-benchmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likr-sandbox/graph-drawing-benchmark/issues"
+  },
+  "homepage": "https://github.com/likr-sandbox/graph-drawing-benchmark#readme",
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "d3": "^6.1.1",
+    "egraph": "file:../egraph-rs/js/egraph",
+    "egraph-wasm": "file:../egraph-rs/crates/wasm"
+  }
+}
